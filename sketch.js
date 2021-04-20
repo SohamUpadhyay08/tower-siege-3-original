@@ -10,7 +10,7 @@ var engine, world;
 var backgroundImg
 
 var polygon,polygonImage
-var bg = "night.png"
+var bg = "night3.png"
 
 
 
@@ -161,7 +161,7 @@ function draw() {
     }
     else
     {
-        bg = "night.png"
+        bg = "night3.png"
     }
     backgroundImg = loadImage(bg);
 }
