@@ -10,7 +10,7 @@ var engine, world;
 var backgroundImg
 
 var polygon,polygonImage
-var bg = "night3.png"
+var bg = "/night3.png"
 
 
 
@@ -157,11 +157,11 @@ function draw() {
     var hour = dateTime.slice(11,13);
     console.log(hour)
     if(hour>=06 && hour<19){
-        bg = "day.png"
+        bg = "/day.png"
     }
     else
     {
-        bg = "night3.png"
+        bg = "/night3.png"
     }
     backgroundImg = loadImage(bg);
 }
